@@ -13,12 +13,12 @@ def add_emoji(emoji):
     entry.insert(END, emoji)
 
 root = Tk()
-root.title("Emoji Chat App")
+root.title("CHATNOVA")
 root.geometry("420x600")
 root.config(bg="#121212")
 
 # Header
-title = Label(root, text="💬 Emoji Chat App", font=("Arial",18,"bold"),
+title = Label(root, text="💬 CHATNOVA", font=("Arial",18,"bold"),
 bg="#075E54", fg="white", pady=10)
 title.pack(fill=X)
 
